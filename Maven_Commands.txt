@@ -1,0 +1,7 @@
+to run all tests: mvn test
+to run scenarios with specific tags: mvn test "-Dcucumber.filter.tags=@PlaceOrder"
+to run specific feature files: mvn test "-Dcucumber.features=src/test/java/features/verifyCheckoutPage.feature"
+to give global properties from command line
+mvn test "-Dbrowser=chrome"
+mvn test "-Dcucumber.filter.tags=@PlaceOrder" "-Dbrowser=chrome"
+mvn test "-Dcucumber.filter.tags=@PlaceOrder" "-Dbrowser=firefox"
