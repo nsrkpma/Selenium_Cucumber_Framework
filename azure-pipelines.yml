@@ -8,15 +8,15 @@ pool:
 
 variables:
   - group: Tokens  # Replace with your actual variable group name
+  - group: Email_Secrets
+
 
 steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '21'
-    jdkArchitectureOption: 'x64'
+    javaHomeOption: 'Path'
+    jdkDirectory: '$(JAVA_HOME)'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'test'
