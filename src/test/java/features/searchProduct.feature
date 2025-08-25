@@ -1,5 +1,5 @@
 Feature: Search and Place the order for Products
-@OffersPage
+@OffersPage @TCID_8
 Scenario Outline: Search experience for product search in both home and Offer Page
 
 Given User is on Grrenkart Landing Page
@@ -10,5 +10,3 @@ And validate product name in offers page matches with landing page
 Examples:
 |Names|
 |Tom|
-|beet|
-|straw|

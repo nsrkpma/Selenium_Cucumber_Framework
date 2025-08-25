@@ -1,5 +1,5 @@
 Feature: Add items to cart and verfiy items on checkout page
-@PlaceOrder
+@PlaceOrder @TCID_9
 Scenario Outline: Verifying items added on lading page are showing on checkout page
 
 Given User is on Grrenkart Landing Page

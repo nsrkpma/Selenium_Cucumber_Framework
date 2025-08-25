@@ -1,6 +1,9 @@
 package stepDefinitions;
 
+import org.testng.Assert;
+
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObjects.LandingPage;
 import utils.TestContextSetup;
@@ -42,5 +45,14 @@ public class LandingPageStepDefinitions {
 		landingPage.switchToCheckoutPage();
 		Thread.sleep(2000);
 	}
+	
+	@Then("Top Deals and Flight Booking Links Shown on Homepage")
+	public void top_deals_and_flight_booking_links_shown_on_homepage() {
+	    Assert.assertTrue(landingPage.verifyNavbarLinks());
+	}
 
+	@Then("Footer Text is © {int} GreenKart - buy veg and fruits online")
+	public void footer_text_is_green_kart_buy_veg_and_fruits_online(Integer int1) {
+		Assert.assertEquals("© 2019 GreenKart - buy veg and fruits online", landingPage.getFooterText());
+	}
 }

@@ -9,22 +9,41 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,031</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">23,994</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">cucumberOptions.TestNGTestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1745226837956</td><td rowspan="1">13357</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">cucumberOptions.TestNGTestRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="3">1745226837956</td><td rowspan="3">13917</td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">cucumberOptions.TestNGTestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="4">1756130756815</td><td rowspan="4">20642</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search experience for product search in both home and Offer Page&quot;</td><td>&quot;Search and Place the order for Products&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Beetroot] but found [No data]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinitions.OffersPageStepDefinitions.validate_product_name_in_offers_page_matches_with_landing_page(OffersPageStepDefinitions.java:38)
-	at ✽.validate product name in offers page matches with landing page(file:///D:/eclipse/Selenium_Cucumber_Framework/src/test/java/features/searchProduct.feature:8)
+<h2>Default test</h2><h3 id="m0">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verifying items added on lading page are showing on checkout page&quot;</td><td>&quot;Add items to cart and verfiy items on checkout page&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search experience for product search in both home and Offer Page&quot;</td><td>&quot;Search and Place the order for Products&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verifying items added on lading page are showing on checkout page&quot;</td><td>&quot;Add items to cart and verfiy items on checkout page&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search experience for product search in both home and Offer Page&quot;</td><td>&quot;Search and Place the order for Products&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Correct Footer text Shown on Homepage&quot;</td><td>&quot;Homepage Looks and Feel&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.ExceptionInInitializerError
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.RuntimeException: AZURE_PAT environment variable is not set
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search experience for product search in both home and Offer Page&quot;</td><td>&quot;Search and Place the order for Products&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">cucumberOptions.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Top Deals and Flight Booking Links Shown on Homepage&quot;</td><td>&quot;Homepage Looks and Feel&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

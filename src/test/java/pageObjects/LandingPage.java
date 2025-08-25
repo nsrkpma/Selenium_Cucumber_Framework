@@ -19,6 +19,9 @@ public WebDriver driver;
 	By addToCart=By.xpath("//button[text()='ADD TO CART']");
 	By cartIcon=By.cssSelector("a.cart-icon");
 	By proceedToCheckout=By.xpath("//button[text()='PROCEED TO CHECKOUT']");
+	By topDealsLink=By.xpath("//a[text()='Top Deals']");
+	By flightBookingLink=By.xpath("//a[text()='Flight Booking']");
+	By footerText=By.cssSelector("footer > p");
 	
 	public void searchItem(String shortName) {
 		driver.findElement(search).sendKeys(shortName);
@@ -45,4 +48,18 @@ public WebDriver driver;
 		driver.findElement(cartIcon).click();
 		driver.findElement(proceedToCheckout).click();
 	}
+	
+	public boolean verifyNavbarLinks() {
+		if(driver.findElement(topDealsLink).isDisplayed()&&driver.findElement(flightBookingLink).isDisplayed())
+			return true;
+		return false;
+	}
+	
+	public String getFooterText() {
+		String ftext=driver.findElement(footerText).getText();
+		return ftext;
+		
+	}
+	
+	
 }

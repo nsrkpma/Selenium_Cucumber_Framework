@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 21 14:43:56 IST 2025</td>
+<td>Started on:</td><td>Mon Aug 25 19:35:55 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16031 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23994 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,53 +76,85 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search experience for product search in both home and Offer Page", "Search and Place the order for Products"</td>
-<td><div><pre>java.lang.AssertionError: expected [Beetroot] but found [No data]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinitions.OffersPageStepDefinitions.validate_product_name_in_offers_page_matches_with_landing_page(OffersPageStepDefinitions.java:38)
-	at ✽.validate product name in offers page matches with landing page(file:///D:/eclipse/Selenium_Cucumber_Framework/src/test/java/features/searchProduct.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1490135664", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1490135664'><pre>java.lang.AssertionError: expected [Beetroot] but found [No data]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinitions.OffersPageStepDefinitions.validate_product_name_in_offers_page_matches_with_landing_page(OffersPageStepDefinitions.java:38)
-	at ✽.validate product name in offers page matches with landing page(file:///D:/eclipse/Selenium_Cucumber_Framework/src/test/java/features/searchProduct.feature:8)
-</pre></div></td>
-<td>13</td>
-<td>cucumberOptions.TestNGTestRunner@5fbe4146</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search experience for product search in both home and Offer Page", "Search and Place the order for Products"</td>
-<td></td>
-<td>13</td>
-<td>cucumberOptions.TestNGTestRunner@5fbe4146</td></tr>
-<tr>
 <td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying items added on lading page are showing on checkout page", "Add items to cart and verfiy items on checkout page"</td>
-<td></td>
-<td>14</td>
-<td>cucumberOptions.TestNGTestRunner@5fbe4146</td></tr>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace981166142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace981166142'><pre>java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div></td>
+<td>20</td>
+<td>cucumberOptions.TestNGTestRunner@ed7f8b4</td></tr>
+<tr>
+<td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Correct Footer text Shown on Homepage", "Homepage Looks and Feel"</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.RuntimeException: AZURE_PAT environment variable is not set
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace721405833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace721405833'><pre>java.lang.ExceptionInInitializerError
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.RuntimeException: AZURE_PAT environment variable is not set
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div></td>
+<td>9</td>
+<td>cucumberOptions.TestNGTestRunner@ed7f8b4</td></tr>
 <tr>
 <td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search experience for product search in both home and Offer Page", "Search and Place the order for Products"</td>
-<td></td>
-<td>14</td>
-<td>cucumberOptions.TestNGTestRunner@5fbe4146</td></tr>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1010639146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1010639146'><pre>java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div></td>
+<td>17</td>
+<td>cucumberOptions.TestNGTestRunner@ed7f8b4</td></tr>
+<tr>
+<td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Top Deals and Flight Booking Links Shown on Homepage", "Homepage Looks and Feel"</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1702671956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1702671956'><pre>java.lang.NoClassDefFoundError: Could not initialize class azure.AzureDevOpsConfig
+	at azure.AzureDevOpsService.&lt;init&gt;(AzureDevOpsService.java:13)
+	at azure.AzureDevOpsRunner.execute(AzureDevOpsRunner.java:23)
+	at stepDefinitions.Hooks.AfterScenario(Hooks.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: AZURE_PAT environment variable is not set [in thread &quot;TestNG-PoolService-2&quot;]
+	at azure.AzureDevOpsConfig.&lt;clinit&gt;(AzureDevOpsConfig.java:29)
+	... 3 more
+</pre></div></td>
+<td>10</td>
+<td>cucumberOptions.TestNGTestRunner@ed7f8b4</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,1 +1,3 @@
-file:src/test/java/features/searchProduct.feature:13
+file:src/test/java/features/homePageValidations.feature:4:10
+file:src/test/java/features/searchProduct.feature:12
+file:src/test/java/features/verifyCheckoutPage.feature:14
