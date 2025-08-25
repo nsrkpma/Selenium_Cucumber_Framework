@@ -1,8 +1,3 @@
-# Maven
-# Build your Java project and run tests with Apache Maven.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/java
-
 trigger:
 - master
 
@@ -10,6 +5,9 @@ pool:
   name: Default
   demands:
     - Agent.Name -equals ThinkpadE14
+
+variables:
+  - group: Tokens  # Replace with your actual variable group name
 
 steps:
 - task: Maven@3
@@ -21,4 +19,6 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'test "-Dbrowser=chrome"'
+    goals: 'test'
+  env:
+    AZURE_PAT: $(AZURE_PAT)  # Inject the secret as an environment variable
