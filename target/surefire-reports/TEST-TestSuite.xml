@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="15.45" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="24.456" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\test-classes;C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\classes;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.31.0\selenium-java-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.31.0\selenium-chrome-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.31.0\selenium-chromium-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.31.0\selenium-devtools-v133-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.31.0\selenium-devtools-v134-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.31.0\selenium-devtools-v135-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.31.0\selenium-edge-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.31.0\selenium-firefox-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.31.0\selenium-ie-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nsrkp\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\nsrkp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\nsrkp\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.31.0\selenium-safari-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-java\7.22.0\cucumber-java-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-core\7.22.0\cucumber-core-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin\7.22.0\cucumber-gherkin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.0\cucumber-gherkin-messages-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\gherkin\32.1.0\gherkin-32.1.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\datatable\7.22.0\datatable-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-plugin\7.22.0\cucumber-plugin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\docstring\7.22.0\docstring-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\html-formatter\21.10.0\html-formatter-21.10.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\nsrkp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-testng\7.22.0\cucumber-testng-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\nsrkp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nsrkp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nsrkp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-picocontainer\7.22.0\cucumber-picocontainer-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nsrkp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nsrkp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nsrkp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nsrkp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nsrkp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\nsrkp\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\nsrkp\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\nsrkp\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\nsrkp\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\nsrkp\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nsrkp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nsrkp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nsrkp\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\nsrkp\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\nsrkp\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\nsrkp\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\test-classes;C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\classes;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nsrkp\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\nsrkp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\nsrkp\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-java\7.22.0\cucumber-java-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-core\7.22.0\cucumber-core-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin\7.22.0\cucumber-gherkin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.0\cucumber-gherkin-messages-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\gherkin\32.1.0\gherkin-32.1.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\datatable\7.22.0\datatable-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-plugin\7.22.0\cucumber-plugin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\docstring\7.22.0\docstring-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\html-formatter\21.10.0\html-formatter-21.10.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\nsrkp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-testng\7.22.0\cucumber-testng-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\nsrkp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nsrkp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-picocontainer\7.22.0\cucumber-picocontainer-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nsrkp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nsrkp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nsrkp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nsrkp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nsrkp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\nsrkp\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\nsrkp\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\nsrkp\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\nsrkp\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\nsrkp\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nsrkp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nsrkp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nsrkp\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\nsrkp\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\nsrkp\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\nsrkp\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\nsrkp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.0\jackson-databind-2.18.0.jar;C:\Users\nsrkp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.0\jackson-annotations-2.18.0.jar;C:\Users\nsrkp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.0\jackson-core-2.18.0.jar;C:\Users\nsrkp\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\nsrkp\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\nsrkp\.m2\repository\org\json\json\20250517\json-20250517.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\nsrkp\AppData\Local\Temp\surefire8894930505283042154\surefirebooter-20250823212652447_3.jar C:\Users\nsrkp\AppData\Local\Temp\surefire8894930505283042154 2025-08-23T21-26-52_228-jvmRun1 surefire-20250823212652447_1tmp surefire_0-20250823212652447_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nsrkp\AppData\Local\Temp\surefire2986934708073831168\surefirebooter-20250825195817794_3.jar C:\Users\nsrkp\AppData\Local\Temp\surefire2986934708073831168 2025-08-25T19-58-17_384-jvmRun1 surefire-20250825195817794_1tmp surefire_0-20250825195817794_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\test-classes;C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\classes;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.31.0\selenium-java-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.31.0\selenium-chrome-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.31.0\selenium-chromium-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.31.0\selenium-devtools-v133-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.31.0\selenium-devtools-v134-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.31.0\selenium-devtools-v135-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.31.0\selenium-edge-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.31.0\selenium-firefox-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.31.0\selenium-ie-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nsrkp\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\nsrkp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\nsrkp\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.31.0\selenium-safari-driver-4.31.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-java\7.22.0\cucumber-java-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-core\7.22.0\cucumber-core-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin\7.22.0\cucumber-gherkin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.0\cucumber-gherkin-messages-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\gherkin\32.1.0\gherkin-32.1.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\datatable\7.22.0\datatable-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-plugin\7.22.0\cucumber-plugin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\docstring\7.22.0\docstring-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\html-formatter\21.10.0\html-formatter-21.10.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\nsrkp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-testng\7.22.0\cucumber-testng-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\nsrkp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nsrkp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nsrkp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-picocontainer\7.22.0\cucumber-picocontainer-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nsrkp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nsrkp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nsrkp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nsrkp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nsrkp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\nsrkp\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\nsrkp\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\nsrkp\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\nsrkp\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\nsrkp\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nsrkp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nsrkp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nsrkp\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\nsrkp\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\nsrkp\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\nsrkp\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\test-classes;C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\target\classes;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\nsrkp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nsrkp\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\nsrkp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\nsrkp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\nsrkp\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\nsrkp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-java\7.22.0\cucumber-java-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-core\7.22.0\cucumber-core-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin\7.22.0\cucumber-gherkin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.0\cucumber-gherkin-messages-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\gherkin\32.1.0\gherkin-32.1.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\datatable\7.22.0\datatable-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-plugin\7.22.0\cucumber-plugin-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\docstring\7.22.0\docstring-7.22.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\html-formatter\21.10.0\html-formatter-21.10.0.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\nsrkp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-testng\7.22.0\cucumber-testng-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\nsrkp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nsrkp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nsrkp\.m2\repository\io\cucumber\cucumber-picocontainer\7.22.0\cucumber-picocontainer-7.22.0.jar;C:\Users\nsrkp\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nsrkp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nsrkp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nsrkp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nsrkp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nsrkp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\nsrkp\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\nsrkp\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\nsrkp\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\nsrkp\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\nsrkp\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\nsrkp\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\nsrkp\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nsrkp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nsrkp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nsrkp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\nsrkp\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nsrkp\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\nsrkp\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\nsrkp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\nsrkp\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\nsrkp\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\nsrkp\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\nsrkp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.0\jackson-databind-2.18.0.jar;C:\Users\nsrkp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.0\jackson-annotations-2.18.0.jar;C:\Users\nsrkp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.0\jackson-core-2.18.0.jar;C:\Users\nsrkp\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\nsrkp\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\nsrkp\.m2\repository\org\json\json\20250517\json-20250517.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nsrkp"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nsrkp\AppData\Local\Temp\surefire8894930505283042154\surefirebooter-20250823212652447_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nsrkp\AppData\Local\Temp\surefire2986934708073831168\surefirebooter-20250825195817794_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -45,7 +45,6 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\nsrkp\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.2"/>
-    <property name="cucumber.filter.tags" value="@TC3"/>
     <property name="user.dir" value="C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -59,971 +58,147 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Search experience for product search in both home and Offer Page&quot;, &quot;Search and Place the order for Products&quot;](1)" classname="cucumberOptions.TestNGTestRunner" time="10.559">
-    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135&#10;Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe &#10;Host info: host: &apos;NIRMAL-RAWAT&apos;, ip: &apos;192.168.0.117&apos;&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-	at utils.TestBase.webDriverManager(TestBase.java:57)
-	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
+  <testcase name="runScenario[&quot;Top Deals and Flight Booking Links Shown on Homepage&quot;, &quot;Homepage Looks and Feel&quot;](1)" classname="cucumberOptions.TestNGTestRunner" time="15.232">
     <system-out><![CDATA[
-@OffersPage @TC3
-Scenario Outline: Search experience for product search in both home and Offer Page # src/test/java/features/searchProduct.feature:14
+@OffersPage @TCID_8
+Scenario Outline: Search experience for product search in both home and Offer Page # src/test/java/features/searchProduct.feature:12
 
-@OffersPage @TC3
-Scenario Outline: Search experience for product search in both home and Offer Page # src/test/java/features/searchProduct.feature:15
+@PlaceOrder @TCID_9
+Scenario Outline: Verifying items added on lading page are showing on checkout page              # src/test/java/features/verifyCheckoutPage.feature:14
 
-@OffersPage @TC3
-Scenario Outline: Search experience for product search in both home and Offer Page # src/test/java/features/searchProduct.feature:13
+@HomePage @TCID_10
+Scenario: Top Deals and Flight Booking Links Shown on Homepage # src/test/java/features/homePageValidations.feature:4
+
+@HomePage @TCID_11
+Scenario: Correct Footer text Shown on Homepage                    # src/test/java/features/homePageValidations.feature:10
   Given User is on Grrenkart Landing Page                                          # stepDefinitions.LandingPageStepDefinitions.user_is_on_grrenkart_landing_page()
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-      	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-      	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
-  Given User is on Grrenkart Landing Page                                          # stepDefinitions.LandingPageStepDefinitions.user_is_on_grrenkart_landing_page()
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-      	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-      	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
-  Given User is on Grrenkart Landing Page                                          # stepDefinitions.LandingPageStepDefinitions.user_is_on_grrenkart_landing_page()
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-      	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-      	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
-      	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-      	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:56)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
-  When User searches with shortname straw and extracted actual name of product     # stepDefinitions.LandingPageStepDefinitions.user_searches_with_shortname_and_extracted_actual_name_of_product(java.lang.String)
-  Then User searches with same shortname straw on offers page                      # stepDefinitions.OffersPageStepDefinitions.user_searches_with_same_shortname_on_offers_page(java.lang.String)
-  And validate product name in offers page matches with landing page               # stepDefinitions.OffersPageStepDefinitions.validate_product_name_in_offers_page_matches_with_landing_page()
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
-      	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-      	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:56)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
+  Given User is on Grrenkart Landing Page                                                        # stepDefinitions.LandingPageStepDefinitions.user_is_on_grrenkart_landing_page()
+
+    Embedding screenshot [image/png 398830 bytes]
+
+
+    Embedding screenshot [image/png 398560 bytes]
+
+  Given User is on Grrenkart Landing Page                      # stepDefinitions.LandingPageStepDefinitions.user_is_on_grrenkart_landing_page()
+  Given User is on Grrenkart Landing Page                          # stepDefinitions.LandingPageStepDefinitions.user_is_on_grrenkart_landing_page()
+
+    Embedding screenshot [image/png 398238 bytes]
+
+  Then Top Deals and Flight Booking Links Shown on Homepage    # stepDefinitions.LandingPageStepDefinitions.top_deals_and_flight_booking_links_shown_on_homepage()
+
+    Embedding screenshot [image/png 397895 bytes]
+
+  Then Footer Text is © 2019 GreenKart - buy veg and fruits online # stepDefinitions.LandingPageStepDefinitions.footer_text_is_green_kart_buy_veg_and_fruits_online(java.lang.Integer)
+
+    Embedding screenshot [image/png 398025 bytes]
+
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points?api-version=7.1
+
+    Embedding screenshot [image/png 398303 bytes]
+
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points?api-version=7.1
+📥 Response (Test Points): {"value":[{"id":6,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/6","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"87"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"8","name":"Search experience for product search in both home and Offer Page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/8","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=8"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Search experience for product search in both home and Offer Page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:02.88Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":7,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/7","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"88"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"9","name":"Verifying items added on lading page are showing on checkout page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/9","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=9"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Verifying items added on lading page are showing on checkout page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:05.957Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":8,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/8","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"86"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"10","name":"Top Deals and Flight Booking Links Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/10","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=10"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Top Deals and Flight Booking Links Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:18:58.663Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":9,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/9","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"85"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"11","name":"Correct Footer text Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/11","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=11"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Correct Footer text Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:18:58.683Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"}],"count":4}
+📥 Response (Test Points): {"value":[{"id":6,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/6","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"87"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"8","name":"Search experience for product search in both home and Offer Page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/8","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=8"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Search experience for product search in both home and Offer Page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:02.88Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":7,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/7","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"88"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"9","name":"Verifying items added on lading page are showing on checkout page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/9","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=9"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Verifying items added on lading page are showing on checkout page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:05.957Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":8,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/8","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"86"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"10","name":"Top Deals and Flight Booking Links Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/10","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=10"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Top Deals and Flight Booking Links Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:18:58.663Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":9,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/9","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"85"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"11","name":"Correct Footer text Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/11","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=11"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Correct Footer text Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:18:58.683Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"}],"count":4}
+✅ Found Test Point IDs: [8]
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/runs?api-version=7.1
+✅ Found Test Point IDs: [9]
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/runs?api-version=7.1
+📤 Request Body (Create Run): {"pointIds":[8],"name":"Automation Test Run - 333e201c-e1e8-4a51-8363-5b30de73e310","plan":{"id":1}}
+📤 Request Body (Create Run): {"pointIds":[9],"name":"Automation Test Run - b2925275-eeca-4c23-bbda-3da3934f946b","plan":{"id":1}}
+📡 Response Code (Create Run): 200
+📥 Response (Create Run): {"id":90,"name":"Automation Test Run - b2925275-eeca-4c23-bbda-3da3934f946b","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/90","isAutomated":false,"owner":{"displayName":null,"id":"00000000-0000-0000-0000-000000000000"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice"},"state":"Unspecified","plan":{"id":"1"},"totalTests":0,"incompleteTests":0,"notApplicableTests":0,"passedTests":0,"unanalyzedTests":0,"revision":2,"webAccessUrl":"https://dev.azure.com/King-kane/Automation_Practice/_TestManagement/Runs?runId=90&_a=runCharts"}
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/90/Results?api-version=7.1
+📥 Response (Get Results): {"count":1,"value":[{"id":100000,"configuration":{"id":"1"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice","url":"https://dev.azure.com/King-kane/_apis/projects/Automation_Practice"},"startedDate":"2025-08-25T14:28:34.033Z","completedDate":"2025-08-25T14:28:34.033Z","revision":1,"state":"Pending","testCase":{"id":"11","name":"Correct Footer text Shown on Homepage"},"testPoint":{"id":"9"},"testRun":{"id":"90","name":"Automation Test Run - b2925275-eeca-4c23-bbda-3da3934f946b","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/90"},"lastUpdatedDate":"2025-08-25T14:28:34.04Z","priority":2,"createdDate":"2025-08-25T14:28:34.04Z","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/90/Results/100000","failureType":"None","testCaseTitle":"Correct Footer text Shown on Homepage","testCaseRevision":1,"customFields":[],"testPlan":{"id":"1"},"testCaseReferenceId":3789888,"owner":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"runBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"lastUpdatedBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}}]}
+✅ Found Result ID: 100000
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/90/Results?api-version=7.1
+📤 Request Body (Update Result): [{"id":100000,"state":"Completed","outcome":"Passed"}]
   When User searches with shortname Tom and extracted actual name of product       # stepDefinitions.LandingPageStepDefinitions.user_searches_with_shortname_and_extracted_actual_name_of_product(java.lang.String)
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
-      	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-      	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:56)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
+📡 Response Code (Create Run): 200
+📥 Response (Create Run): {"id":91,"name":"Automation Test Run - 333e201c-e1e8-4a51-8363-5b30de73e310","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/91","isAutomated":false,"owner":{"displayName":null,"id":"00000000-0000-0000-0000-000000000000"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice"},"state":"Unspecified","plan":{"id":"1"},"totalTests":0,"incompleteTests":0,"notApplicableTests":0,"passedTests":0,"unanalyzedTests":0,"revision":2,"webAccessUrl":"https://dev.azure.com/King-kane/Automation_Practice/_TestManagement/Runs?runId=91&_a=runCharts"}
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/91/Results?api-version=7.1
+📡 Response Code (Update Result): 200
+📥 Response (Update Result): {"count":1,"value":[{"id":100000,"project":{},"outcome":"Passed","lastUpdatedDate":"2025-08-25T14:28:34.373Z","priority":0,"url":"","lastUpdatedBy":{"displayName":null,"id":null}}]}
+✅ Azure DevOps updated for TCID_11: Passed
+📥 Response (Get Results): {"count":1,"value":[{"id":100000,"configuration":{"id":"1"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice","url":"https://dev.azure.com/King-kane/_apis/projects/Automation_Practice"},"startedDate":"2025-08-25T14:28:34.243Z","completedDate":"2025-08-25T14:28:34.243Z","revision":1,"state":"Pending","testCase":{"id":"10","name":"Top Deals and Flight Booking Links Shown on Homepage"},"testPoint":{"id":"8"},"testRun":{"id":"91","name":"Automation Test Run - 333e201c-e1e8-4a51-8363-5b30de73e310","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/91"},"lastUpdatedDate":"2025-08-25T14:28:34.25Z","priority":2,"createdDate":"2025-08-25T14:28:34.25Z","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/91/Results/100000","failureType":"None","testCaseTitle":"Top Deals and Flight Booking Links Shown on Homepage","testCaseRevision":1,"customFields":[],"testPlan":{"id":"1"},"testCaseReferenceId":3789887,"owner":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"runBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"lastUpdatedBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}}]}
+✅ Found Result ID: 100000
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/91/Results?api-version=7.1
+📤 Request Body (Update Result): [{"id":100000,"state":"Completed","outcome":"Passed"}]
+📡 Response Code (Update Result): 200
+📥 Response (Update Result): {"count":1,"value":[{"id":100000,"project":{},"outcome":"Passed","lastUpdatedDate":"2025-08-25T14:28:34.56Z","priority":0,"url":"","lastUpdatedBy":{"displayName":null,"id":null}}]}
+✅ Azure DevOps updated for TCID_10: Passed
+  When User searches with shortname Tom and extracted actual name of product                     # stepDefinitions.LandingPageStepDefinitions.user_searches_with_shortname_and_extracted_actual_name_of_product(java.lang.String)
+
+    Embedding screenshot [image/png 82544 bytes]
+
+
+    Embedding screenshot [image/png 82188 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Correct Footer text Shown on Homepage&quot;, &quot;Homepage Looks and Feel&quot;](2)" classname="cucumberOptions.TestNGTestRunner" time="15.43">
+    <system-out><![CDATA[  And User adds quantity "4" of the product to the cart                                          # stepDefinitions.LandingPageStepDefinitions.user_adds_quantity_of_the_product_to_the_cart(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search experience for product search in both home and Offer Page&quot;, &quot;Search and Place the order for Products&quot;](3)" classname="cucumberOptions.TestNGTestRunner" time="17.609">
+    <system-out><![CDATA[
+    Embedding screenshot [image/png 83322 bytes]
+
+Tomato
   Then User searches with same shortname Tom on offers page                        # stepDefinitions.OffersPageStepDefinitions.user_searches_with_same_shortname_on_offers_page(java.lang.String)
-  When User searches with shortname beet and extracted actual name of product      # stepDefinitions.LandingPageStepDefinitions.user_searches_with_shortname_and_extracted_actual_name_of_product(java.lang.String)
+
+    Embedding screenshot [image/png 34312 bytes]
+
   And validate product name in offers page matches with landing page               # stepDefinitions.OffersPageStepDefinitions.validate_product_name_in_offers_page_matches_with_landing_page()
-  Then User searches with same shortname beet on offers page                       # stepDefinitions.OffersPageStepDefinitions.user_searches_with_same_shortname_on_offers_page(java.lang.String)
-  And validate product name in offers page matches with landing page               # stepDefinitions.OffersPageStepDefinitions.validate_product_name_in_offers_page_matches_with_landing_page()
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
-      	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-      	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:92)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 23, 2025 9:26:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:26:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:26:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:26:58 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:27:00 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:27:00 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:27:01 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:27:04 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-Aug 23, 2025 9:27:04 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Search experience for product search in both home and Offer Page&quot;, &quot;Search and Place the order for Products&quot;](2)" classname="cucumberOptions.TestNGTestRunner" time="11.851">
-    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135&#10;Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe &#10;Host info: host: &apos;NIRMAL-RAWAT&apos;, ip: &apos;192.168.0.117&apos;&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-	at utils.TestBase.webDriverManager(TestBase.java:57)
-	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
-      	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-      	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:92)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+    Embedding screenshot [image/png 34312 bytes]
+
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points?api-version=7.1
+📥 Response (Test Points): {"value":[{"id":6,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/6","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"87"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"8","name":"Search experience for product search in both home and Offer Page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/8","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=8"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Search experience for product search in both home and Offer Page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:02.88Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":7,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/7","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"88"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"9","name":"Verifying items added on lading page are showing on checkout page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/9","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=9"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Verifying items added on lading page are showing on checkout page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:05.957Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":8,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/8","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"91"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"10","name":"Top Deals and Flight Booking Links Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/10","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=10"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Top Deals and Flight Booking Links Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:28:34.553Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":9,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/9","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"90"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"11","name":"Correct Footer text Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/11","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=11"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Correct Footer text Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:28:34.373Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"}],"count":4}
+✅ Found Test Point IDs: [6]
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/runs?api-version=7.1
+📤 Request Body (Create Run): {"pointIds":[6],"name":"Automation Test Run - 0ee81957-1374-4d8f-959c-2f9e0b6ba73c","plan":{"id":1}}
+📡 Response Code (Create Run): 200
+📥 Response (Create Run): {"id":92,"name":"Automation Test Run - 0ee81957-1374-4d8f-959c-2f9e0b6ba73c","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/92","isAutomated":false,"owner":{"displayName":null,"id":"00000000-0000-0000-0000-000000000000"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice"},"state":"Unspecified","plan":{"id":"1"},"totalTests":0,"incompleteTests":0,"notApplicableTests":0,"passedTests":0,"unanalyzedTests":0,"revision":2,"webAccessUrl":"https://dev.azure.com/King-kane/Automation_Practice/_TestManagement/Runs?runId=92&_a=runCharts"}
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/92/Results?api-version=7.1
+📥 Response (Get Results): {"count":1,"value":[{"id":100000,"configuration":{"id":"1"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice","url":"https://dev.azure.com/King-kane/_apis/projects/Automation_Practice"},"startedDate":"2025-08-25T14:28:37.727Z","completedDate":"2025-08-25T14:28:37.727Z","revision":1,"state":"Pending","testCase":{"id":"8","name":"Search experience for product search in both home and Offer Page"},"testPoint":{"id":"6"},"testRun":{"id":"92","name":"Automation Test Run - 0ee81957-1374-4d8f-959c-2f9e0b6ba73c","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/92"},"lastUpdatedDate":"2025-08-25T14:28:37.737Z","priority":2,"createdDate":"2025-08-25T14:28:37.737Z","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/92/Results/100000","failureType":"None","testCaseTitle":"Search experience for product search in both home and Offer Page","testCaseRevision":1,"customFields":[],"testPlan":{"id":"1"},"testCaseReferenceId":3789889,"owner":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"runBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"lastUpdatedBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}}]}
+✅ Found Result ID: 100000
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/92/Results?api-version=7.1
+📤 Request Body (Update Result): [{"id":100000,"state":"Completed","outcome":"Passed"}]
+📡 Response Code (Update Result): 200
+📥 Response (Update Result): {"count":1,"value":[{"id":100000,"project":{},"outcome":"Passed","lastUpdatedDate":"2025-08-25T14:28:38.077Z","priority":0,"url":"","lastUpdatedBy":{"displayName":null,"id":null}}]}
+✅ Azure DevOps updated for TCID_8: Passed
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Search experience for product search in both home and Offer Page&quot;, &quot;Search and Place the order for Products&quot;](3)" classname="cucumberOptions.TestNGTestRunner" time="13.142">
-    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135&#10;Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe &#10;Host info: host: &apos;NIRMAL-RAWAT&apos;, ip: &apos;192.168.0.117&apos;&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-	at utils.TestBase.webDriverManager(TestBase.java:57)
-	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:86)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 135
-      Current browser version is 139.0.3405.111 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-      Host info: host: 'NIRMAL-RAWAT', ip: '192.168.0.117'
-      Build info: version: '4.31.0', revision: '1ef9f18787*'
-      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-      Driver info: org.openqa.selenium.edge.EdgeDriver
-      Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-      	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-      	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-      	at utils.TestBase.webDriverManager(TestBase.java:57)
-      	at utils.TestContextSetup.<init>(TestContextSetup.java:18)
-      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-      	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-      	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-      	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-      	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-      	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-      	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-      	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
-      	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
-      	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-      	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-      	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-      	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-      	at io.cucumber.core.runner.TestCase.run(TestCase.java:92)
-      	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-      	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-      	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-      	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-      	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-      	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-      	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-      	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-      	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-      	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-      	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-      	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-      	at java.base/java.lang.Thread.run(Thread.java:1583)
+  <testcase name="runScenario[&quot;Verifying items added on lading page are showing on checkout page&quot;, &quot;Add items to cart and verfiy items on checkout page&quot;](4)" classname="cucumberOptions.TestNGTestRunner" time="20.374">
+    <system-out><![CDATA[  And User navigates to checkout Page                                                            # stepDefinitions.LandingPageStepDefinitions.user_navigates_to_checkout_page()
+
+    Embedding screenshot [image/png 37767 bytes]
+
+Tomato
+4
+  Then The product with shortname "Tom" and quantity "4" is shown correctly on the checkout page # stepDefinitions.CheckoutPageStepDefinitions.the_product_with_shortname_and_quantity_is_shown_correctly_on_the_checkout_page(java.lang.String,java.lang.String)
+
+    Embedding screenshot [image/png 37767 bytes]
+
+  And Apply and Place order buttons are showing on the checkout page                             # stepDefinitions.CheckoutPageStepDefinitions.apply_and_place_order_buttons_are_showing_on_the_checkout_page()
+
+    Embedding screenshot [image/png 37767 bytes]
+
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points?api-version=7.1
+📥 Response (Test Points): {"value":[{"id":6,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/6","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"92"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"8","name":"Search experience for product search in both home and Offer Page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/8","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=8"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Search experience for product search in both home and Offer Page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:28:38.077Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":7,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/7","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"88"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"9","name":"Verifying items added on lading page are showing on checkout page","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/9","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=9"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Verifying items added on lading page are showing on checkout page"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:19:05.957Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":8,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/8","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"91"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"10","name":"Top Deals and Flight Booking Links Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/10","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=10"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Top Deals and Flight Booking Links Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:28:34.553Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"},{"id":9,"url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Plans/1/Suites/4/Points/9","assignedTo":{"displayName":"NIRMAL RAWAT <Windows Live ID\\nsr.kpma@outlook.com>","id":"67319211-2758-64db-bdd8-724376dc8594"},"automated":false,"configuration":{"id":"1","name":"Windows 10"},"lastTestRun":{"id":"90"},"lastResult":{"id":"100000"},"outcome":"Passed","state":"Completed","lastResultState":"Completed","testCase":{"id":"11","name":"Correct Footer text Shown on Homepage","url":"https://dev.azure.com/King-kane/_apis/wit/workItems/11","webUrl":"https://dev.azure.com/King-kane/web/wi.aspx?pcguid=a4bac5c8-1d55-43f6-977c-d5924b3cf4c4&id=11"},"workItemProperties":[{"workItem":{"key":"Microsoft.VSTS.TCM.AutomationStatus","value":"Not Automated"}},{"workItem":{"key":"Microsoft.VSTS.TCM.AutomatedTestName","value":null}},{"workItem":{"key":"System.Title","value":"Correct Footer text Shown on Homepage"}},{"workItem":{"key":"System.AssignedTo","value":"NIRMAL RAWAT <nsr.kpma@outlook.com>"}},{"workItem":{"key":"System.State","value":"Design"}}],"lastResultDetails":{"duration":0,"dateCompleted":"2025-08-25T14:28:34.373Z","runBy":{"displayName":"NIRMAL RAWAT","id":"67319211-2758-64db-bdd8-724376dc8594"}},"lastRunBuildNumber":"0"}],"count":4}
+✅ Found Test Point IDs: [7]
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/runs?api-version=7.1
+📤 Request Body (Create Run): {"pointIds":[7],"name":"Automation Test Run - 38bcfecd-2e8a-4d53-93f5-fe892c72cd16","plan":{"id":1}}
+📡 Response Code (Create Run): 200
+📥 Response (Create Run): {"id":93,"name":"Automation Test Run - 38bcfecd-2e8a-4d53-93f5-fe892c72cd16","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/93","isAutomated":false,"owner":{"displayName":null,"id":"00000000-0000-0000-0000-000000000000"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice"},"state":"Unspecified","plan":{"id":"1"},"totalTests":0,"incompleteTests":0,"notApplicableTests":0,"passedTests":0,"unanalyzedTests":0,"revision":2,"webAccessUrl":"https://dev.azure.com/King-kane/Automation_Practice/_TestManagement/Runs?runId=93&_a=runCharts"}
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/93/Results?api-version=7.1
+📥 Response (Get Results): {"count":1,"value":[{"id":100000,"configuration":{"id":"1"},"project":{"id":"7082872e-a2b0-4e22-a792-d5d1240985c9","name":"Automation_Practice","url":"https://dev.azure.com/King-kane/_apis/projects/Automation_Practice"},"startedDate":"2025-08-25T14:28:40.553Z","completedDate":"2025-08-25T14:28:40.553Z","revision":1,"state":"Pending","testCase":{"id":"9","name":"Verifying items added on lading page are showing on checkout page"},"testPoint":{"id":"7"},"testRun":{"id":"93","name":"Automation Test Run - 38bcfecd-2e8a-4d53-93f5-fe892c72cd16","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/93"},"lastUpdatedDate":"2025-08-25T14:28:40.557Z","priority":2,"createdDate":"2025-08-25T14:28:40.557Z","url":"https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/93/Results/100000","failureType":"None","testCaseTitle":"Verifying items added on lading page are showing on checkout page","testCaseRevision":1,"customFields":[],"testPlan":{"id":"1"},"testCaseReferenceId":3789890,"owner":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"runBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"},"lastUpdatedBy":{"displayName":"NIRMAL RAWAT","url":"https://spsprodcin2.vssps.visualstudio.com/A3b519ee4-4f49-4a3b-af2e-7efde73c52d3/_apis/Identities/67319211-2758-64db-bdd8-724376dc8594","_links":{"avatar":{"href":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}},"id":"67319211-2758-64db-bdd8-724376dc8594","uniqueName":"nsr.kpma@outlook.com","imageUrl":"https://dev.azure.com/King-kane/_apis/GraphProfile/MemberAvatars/msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0","descriptor":"msa.NjczMTkyMTEtMjc1OC03NGRiLWJkZDgtNzI0Mzc2ZGM4NTk0"}}]}
+✅ Found Result ID: 100000
+🔗 Request URL: https://dev.azure.com/King-kane/Automation_Practice/_apis/test/Runs/93/Results?api-version=7.1
+📤 Request Body (Update Result): [{"id":100000,"state":"Completed","outcome":"Passed"}]
+📡 Response Code (Update Result): 200
+📥 Response (Update Result): {"count":1,"value":[{"id":100000,"project":{},"outcome":"Passed","lastUpdatedDate":"2025-08-25T14:28:40.743Z","priority":0,"url":"","lastUpdatedBy":{"displayName":null,"id":null}}]}
+✅ Azure DevOps updated for TCID_9: Passed
 ]]></system-out>
   </testcase>
 </testsuite>

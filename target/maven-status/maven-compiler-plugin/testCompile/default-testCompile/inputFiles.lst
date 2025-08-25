@@ -1,3 +1,6 @@
+C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\azure\AzureDevOpsConfig.java
+C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\azure\AzureDevOpsRunner.java
+C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\azure\AzureDevOpsService.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\cucumberOptions\FailedTestRunner.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\cucumberOptions\TestNGTestRunner.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\pageObjects\CheckoutPage.java
@@ -8,7 +11,6 @@ C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\sr
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\stepDefinitions\Hooks.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\stepDefinitions\LandingPageStepDefinitions.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\stepDefinitions\OffersPageStepDefinitions.java
-C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\utils\AzureDevOpsReporter.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\utils\GenericUtils.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\utils\TestBase.java
 C:\Users\nsrkp\OneDrive\Desktop\Selenium_Cucumber\Selenium_Cucumber_Framework\src\test\java\utils\TestContextSetup.java
